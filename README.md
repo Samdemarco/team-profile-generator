@@ -14,7 +14,7 @@ Link to Screencastify/Castify Video of application in action: https://app.castif
    
    ## Challenges
 
-Definitely encountered a few challenges on this project. One challenge I struggled with was visualizing how I would take data generated via 'inquirer' npm package  
+Definitely encountered a few challenges on this project. One challenge I struggled with was visualizing how I would take data generated via Inquirer npm package  
 which was placed into an array, and then convert to an actual HTML page by leveraging a separate JavaScript file (htmlRender.js). I tried my best to try and simplify the process by just passing the array (inquirer prompt data) directly to the 'htmlRender' function which then just parses the data to determine employee role and generate the corresponding HTML, and then using 'fs.write' to create my page.
 
 ## User Story
